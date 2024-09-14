@@ -12,11 +12,10 @@ URL: https://github.com/brandonleekramer/thegraphR/
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 Imports: 
-    magrittr,
     stringr,
-    httr2,
     ghql,
-    jsonlite
+    jsonlite,
+    thegraphR
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
