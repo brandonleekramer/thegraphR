@@ -7,8 +7,6 @@
 #' @return Returns subgraph data from an indexed smart contract.
 #' @export
 #'
-
-#'
 query_subgraph = function(graphql_query,
                           subgraph_id,
                           api_key){
