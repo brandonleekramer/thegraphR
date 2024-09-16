@@ -12,7 +12,7 @@ query_subgraph = function(graphql_query,
                           api_key){
 
   graphql_conn <- ghql::GraphqlClient$new(
-    url = stringr::str_c("https://gateway.network.thegraph.com/api/subgraphs/id/", subgraph_id),
+    url = stringr::str_c("https://gateway.thegraph.com/api/subgraphs/id/", subgraph_id),
     headers = list(Authorization = paste0("Bearer ", api_key)))
 
   qry <- ghql::Query$new()
